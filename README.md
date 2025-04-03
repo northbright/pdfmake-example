@@ -14,3 +14,6 @@ node index.js
 * <https://github.com/bpampuch/pdfmake/tree/0.1/examples>
 * [STACK OF PARAGRAPHS](https://pdfmake.github.io/docs/0.1/document-definition-object/stack/)
 * [Generating Complex PDF files with Node.js and PDFMake](https://www.appgambit.com/blog/nodejs-with-pdfmake)
+
+## License
+* [MIT License](LICENSE)
