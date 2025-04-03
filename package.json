@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "name": "pdfmake-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:northbright/pdfmake-example.git",
+  "author": "Frank Xu <frank.xu@northbright.com>",
+  "license": "MIT",
+  "dependencies": {
+    "pdfmake": "^0.2.18"
+  }
+}
