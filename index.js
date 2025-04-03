@@ -15,7 +15,7 @@ const tasks = [
   }
 ];
 
-function genDynamicUlContent(tasks) {
+function genList(tasks) {
   let content = { ul: [] };
 
   tasks.forEach((task) => {
@@ -50,7 +50,7 @@ function genDynamicUlContent(tasks) {
 let docDefination = {
   'content': [
     { text: 'My Tasks', fontSize: 18, bold: true, alignment: "center" },
-    genDynamicUlContent(tasks)
+    genList(tasks)
   ],
   defaultStyle: {
     fontSize: 12,

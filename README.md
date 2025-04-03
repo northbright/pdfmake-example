@@ -1,7 +1,7 @@
 # pdfmake-example
 Examples of generating PDF using [pdfmake](https://github.com/bpampuch/pdfmake).
 
-* Generate List Content from Dynamic Data
+* Generate List Content from Data Dynamically
 
 ## Usage
 Run following command to generate an example PDF:
