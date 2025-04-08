@@ -33,5 +33,8 @@ jobs:
     - name: Install Dependencies
       run: yarn install
 
-    - name: Test to Generate list dynamically
+    - name: Test to generate list dynamically
       run: node dynamic-list.js
+
+    - name: Test of sign and seal section of contract
+      run: node contract-sign-and-seal-section.js
