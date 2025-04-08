@@ -33,5 +33,5 @@ jobs:
     - name: Install Dependencies
       run: yarn install
 
-    - name: Run index.js
-      run: node index.js
+    - name: Test to Generate list dynamically
+      run: node dynamic-list.js

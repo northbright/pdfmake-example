@@ -68,5 +68,5 @@ var fonts = {
 
 let printer = new PdfPrinter(fonts);
 let pdfDoc = printer.createPdfKitDocument(docDefination, {});
-pdfDoc.pipe(fs.createWriteStream('test.pdf'));
+pdfDoc.pipe(fs.createWriteStream('pdfs/dynamic-list.pdf'));
 pdfDoc.end();
