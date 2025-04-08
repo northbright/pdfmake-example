@@ -1,13 +1,17 @@
 # pdfmake-example
 Examples of generating PDF using [pdfmake](https://github.com/bpampuch/pdfmake).
 
+## Examples
+
 * Generate List Content from Data Dynamically
+* Example Sign and Seal Section of Contract
 
 ## Usage
-Run following command to generate an example PDF:
+Run `node xx.js` to output PDFs under `pdfs/`
 
 ```shell
-node index.js
+node dynamic-list.js
+node contract-sign-and-seal-section.js
 ```
 
 ## References
